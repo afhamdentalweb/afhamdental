@@ -1,0 +1,61 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        "signika-negative": ["Signika Negative", "sans-serif"],
+      },
+      colors: {
+        mygreen: {
+          DEFAULT: "#407683",
+          50: "#EBFAFC",
+          100: "#99C3CD",
+          200: "#7EB3C0",
+          300: "#62A3B2",
+          400: "#4D8F9E",
+          500: "#407683",
+          600: "#2E545D",
+          700: "#1B3238",
+          800: "#091012",
+          900: "#000000",
+          950: "#000000",
+        },
+        myorange: {
+          DEFAULT: "#EAA642",
+          50: "#FCF4E7",
+          100: "#FAEBD5",
+          200: "#F6DAB0",
+          300: "#F2C98B",
+          400: "#EEB767",
+          500: "#EAA642",
+          600: "#DC8D18",
+          700: "#A96C13",
+          800: "#774C0D",
+          900: "#442C08",
+          950: "#2B1B05",
+        },
+        myblue: {
+          DEFAULT: "#EDF7FA",
+          50: "#FDFEFE",
+          100: "#EDF7FA",
+          200: "#C1E3EE",
+          300: "#95D0E2",
+          400: "#69BCD5",
+          500: "#3DA9C9",
+          600: "#2D87A2",
+          700: "#216276",
+          800: "#143E4A",
+          900: "#08191E",
+          950: "#020708",
+        },
+      },
+      backgroundImage: {
+        "blue-pattern": "url('/img/blue-pattern.svg')",
+        "green-pattern": "url('/img/green-pattern.svg')",
+      },
+    },
+  },
+  plugins: [],
+};
