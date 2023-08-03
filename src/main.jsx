@@ -5,6 +5,7 @@ import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./pages/Home.jsx";
 import DSPWhiteClinic35Red from "./pages/DSPWhiteClinic35Red.jsx";
+import PageNotFound from "./pages/PageNotFound.jsx";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
       {
         path: "/dsp-white-clinic-35-red",
         element: <DSPWhiteClinic35Red />,
+      },
+      {
+        path: "*",
+        element: <PageNotFound />,
       },
     ],
   },
