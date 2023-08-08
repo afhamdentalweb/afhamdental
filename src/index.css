@@ -8,4 +8,8 @@
     font-family: "Poppins", "sans-serif";
     @apply scroll-smooth;
   }
+
+  body {
+    @apply bg-myblue-100;
+  }
 }
