@@ -2,10 +2,10 @@ import React from "react";
 
 function Consultation() {
   return (
-    <div className="bg-blue-pattern bg-cover bg-center">
+    <div className="bg-mygreen-500 bg-green-pattern bg-cover bg-center">
       <div className="container mx-auto px-5 py-28 flex flex-col space-y-8 md:items-center md:flex-row md:space-y-0">
         <div className="md:w-1/2">
-          <h5 className="font-signika-negative font-bold text-4xl text-mygreen-500 uppercase">
+          <h5 className="font-signika-negative font-bold text-4xl text-myorange-500 uppercase">
             Konsultasi Dengan Tim Afham Dental
           </h5>
         </div>
