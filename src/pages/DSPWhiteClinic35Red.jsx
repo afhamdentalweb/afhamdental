@@ -10,6 +10,8 @@ import Consultation from "../components/DSPWhiteClinic35Red/Consultation";
 import ContactUs from "../components/DSPWhiteClinic35Red/ContactUs";
 import OrderNow from "../components/DSPWhiteClinic35Red/OrderNow";
 import FormOrder from "../components/DSPWhiteClinic35Red/FormOrder";
+import Testimony from "../components/DSPWhiteClinic35Red/Testimony";
+import DoubleDesensitizer from "../components/DSPWhiteClinic35Red/DoubleDesensitizer";
 
 const DSPWhiteClinic35Red = () => {
   useEffect(() => {
@@ -25,7 +27,9 @@ const DSPWhiteClinic35Red = () => {
       <Introduction />
       <Reason />
       <ProductsPackage />
+      <Testimony />
       <SpecialPrice />
+      <DoubleDesensitizer />
       <FormOrder />
       <HowToUse />
       <Consultation />
