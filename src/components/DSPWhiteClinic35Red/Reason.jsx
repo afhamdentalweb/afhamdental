@@ -19,7 +19,7 @@ const Reason = () => {
                 onContextMenu={(event) => event.preventDefault()}
               />
               <span className="font-bold uppercase">
-                Tanpa menggunakan sinar
+                Bisa menggunakan sinar ataupun tidak
               </span>
             </li>
             <li className="flex">
