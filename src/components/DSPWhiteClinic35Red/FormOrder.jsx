@@ -37,7 +37,7 @@ const FormOrder = () => {
                   setFullName(e.target.value);
                 }}
                 className="px-3 py-2 rounded-md"
-                placeholder="Afham"
+                placeholder="Contoh : Afham"
                 autoComplete="off"
                 required
               />
@@ -51,7 +51,7 @@ const FormOrder = () => {
                 type="text"
                 value={orderMessage}
                 onChange={(e) => setOrderMessage(e.target.value)}
-                placeholder="Saya ingin memesan 2 box"
+                placeholder="Contoh : Paket 3, 3 box dsp tambah desensitizer"
                 className="px-3 py-2 rounded-md"
                 rows={6}
                 autoComplete="off"
