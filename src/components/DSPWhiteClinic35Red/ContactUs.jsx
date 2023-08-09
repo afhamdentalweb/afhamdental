@@ -9,7 +9,7 @@ const ContactUs = () => {
             Contact US
           </h5>
         </div>
-        <div className="md:w-3/12 space-y-4">
+        <div className="md:w-4/12 space-y-4">
           <a
             href="https://instagram.com/afhamdental.id?igshid=MzRlODBiNWFlZA=="
             target="_blank"
@@ -32,7 +32,7 @@ const ContactUs = () => {
               alt="Whatsapp icon"
               className="w-6 mr-2"
             />
-            afhamdental
+            afhamdental.co.id
           </a>
           <a
             href="https://wa.me/6285161624841"
