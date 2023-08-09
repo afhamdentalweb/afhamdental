@@ -38,10 +38,13 @@ const SpecialPrice = () => {
               PROPHYLAXIS PASTE
             </h6>
             <p className="font-normal text-white text-justify">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Excepturi, cumque eos. Ut, possimus nisi quidem, debitis sequi
-              libero deserunt sapiente at repellat distinctio dolorum totam
-              quasi rem adipisci consequatur nam!
+              For cleaning & polishing after scalling, also the function of
+              prophylaxis paste has been proven clinically to smooth the enamel
+              surface after hygiene cleaning. This helps to remove calculus,
+              soft deposits, plaque and staining to all supragingival and
+              unattached subgingival tooth surfaces. As discussed, it can also
+              be used to enhance impression and the application of tooth
+              whitening within surgery. With the introduction of direct access
             </p>
           </div>
         </div>

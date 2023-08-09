@@ -13,7 +13,8 @@ const DoubleDesensitizer = () => {
               Dokter bisa sekaligus menggunakan produk DSP Desensitizer
             </span>{" "}
             yang  diperuntukan untuk kondisi gigi yang sensitif, efek samping
-            akibat pengunaan bahan kimia seperti Bleaching ataupun faktor
+            akibat pengunaan bahan kimia{" "}
+            <span className="font-bold">seperti Bleaching</span> ataupun faktor
             lainnya sehingga khususnya pasien yang sedang dilakukan tindakan
             bleaching bisa lebih nyaman
           </p>
