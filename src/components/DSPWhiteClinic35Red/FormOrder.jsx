@@ -6,6 +6,8 @@ const FormOrder = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setFullName("");
+    setOrderMessage("");
     const phoneNumber = "6285161624841",
       message = `Halo, saya ${fullName}.%0aBerikut ini adalah pesanan saya.%0a${orderMessage}`,
       url = `https://wa.me/${phoneNumber}?text=${message}`;
@@ -30,7 +32,10 @@ const FormOrder = () => {
               <input
                 id="fullName"
                 type="text"
-                onChange={(e) => setFullName(e.target.value)}
+                value={fullName}
+                onChange={(e) => {
+                  setFullName(e.target.value);
+                }}
                 className="px-3 py-2 rounded-md"
                 placeholder="Afham"
                 autoComplete="off"
@@ -44,10 +49,11 @@ const FormOrder = () => {
               <textarea
                 id="orderMessage"
                 type="text"
+                value={orderMessage}
                 onChange={(e) => setOrderMessage(e.target.value)}
                 placeholder="Saya ingin memesan 2 box"
                 className="px-3 py-2 rounded-md"
-                rows={4}
+                rows={6}
                 autoComplete="off"
                 required
               />
