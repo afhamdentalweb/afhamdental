@@ -3,7 +3,7 @@ import React from "react";
 const ContactUs = () => {
   return (
     <div className="bg-blue-pattern bg-cover bg-center">
-      <div className="container mx-auto px-5 py-28 flex flex-col space-y-8 md:items-start md:justify-between md:flex-row md:space-y-0">
+      <div className="container mx-auto px-5 py-28 pb-48 flex flex-col space-y-8 md:items-start md:justify-between md:flex-row md:space-y-0">
         <div className="md:w-6/12">
           <h5 className="font-signika-negative font-bold text-4xl text-mygreen-500 uppercase">
             Contact US
