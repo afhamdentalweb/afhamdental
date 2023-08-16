@@ -11,6 +11,14 @@ import Home from "./pages/Home.jsx";
 import DSPWhiteClinic35Red from "./pages/DSPWhiteClinic35Red.jsx";
 import PageNotFound from "./pages/PageNotFound.jsx";
 
+import TagManager from "react-gtm-module";
+
+const tagManagerArgs = {
+  gtmId: "GTM-TBV4XHXV",
+};
+
+TagManager.initialize(tagManagerArgs);
+
 const router = createBrowserRouter([
   {
     path: "/",
