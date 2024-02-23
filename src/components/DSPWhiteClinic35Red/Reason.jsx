@@ -43,7 +43,7 @@ const Reason = () => {
               />
               <span className="flex flex-col uppercase">
                 <span className="font-bold">Lebih awet </span>
-                Dapat digunakan 8 -10 pasien sehingga lebih ekonomis
+                Dapat digunakan hingga 5 pasien sehingga lebih ekonomis
               </span>
             </li>
             <li className="flex">
